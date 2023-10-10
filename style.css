@@ -22,16 +22,16 @@
 
 * {
     font-family: Arial, sans-serif;
-}
-
-h1 {
-    font-size: calc((100vw - 49px - 20px) / 10);
+    background: var(--tg-theme-bg-color,#fff);
+    color: var(--tg-theme-text-color, #000);
 }
 
 .main-screen {
     display: flex;
-    background: var(--tg-theme-bg-color,#fff);
-    color: var(--tg-theme-text-color, #000);
+}
+
+h1 {
+    font-size: calc((100vw - 49px - 20px) / 10);
 }
 
 .card-container {
